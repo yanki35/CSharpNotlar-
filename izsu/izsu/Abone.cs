@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace izsu
 {
-    class Abone
+    public class Abone
     {
         public string AboneNo;
         public string AdSoyad;

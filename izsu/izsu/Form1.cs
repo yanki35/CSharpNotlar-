@@ -45,5 +45,12 @@ namespace izsu
                 listBox1.Items.Remove(_abone);
             }
         }
+
+        private void listBox2_DoubleClick(object sender, EventArgs e)
+        {
+            Abone _abone = (Abone)listBox2.SelectedItem;
+            Form2 frm = new Form2(_abone);
+            frm.Show();
+        }
     }
 }
