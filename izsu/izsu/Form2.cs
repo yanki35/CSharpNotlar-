@@ -15,9 +15,9 @@ namespace izsu
         public Form2(Abone aboneForm2)
         {
             InitializeComponent();
-            label1.Text = aboneForm2.AboneNo;
-            label2.Text = aboneForm2.AdSoyad;
-            label3.Text = aboneForm2.OdemeHesapla(aboneForm2.OncekiSayac, aboneForm2.SonSayac, aboneForm2.AboneTuru).ToString();
+            textBox1.Text = aboneForm2.AboneNo;
+            textBox2.Text = aboneForm2.AdSoyad;
+            textBox3.Text = aboneForm2.OdemeHesapla(aboneForm2.OncekiSayac, aboneForm2.SonSayac, aboneForm2.AboneTuru).ToString();
         }
     }
 }
